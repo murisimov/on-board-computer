@@ -8,7 +8,7 @@ Prerequisites:
 ---
 - Installation
   - Base (text-to-speech)
-    - `sudo apt-get -y install build-essential mpg321`
+    - `sudo apt-get -y install build-essential mpg321 xdg-utils`
     - `pip install -r requirements.txt`
 
   - Speech recognition
