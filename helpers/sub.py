@@ -9,7 +9,7 @@ def sub(command):
     assert isinstance(command, list)
 
     try:
-        result = subprocess.run( command, stdout=PIPE, stderr=PIPE, check=True)
+        result = subprocess.run(command, stdout=PIPE, stderr=PIPE, check=True)
 
     except CalledProcessError as e:
         print("Subprocess returned an error:")
